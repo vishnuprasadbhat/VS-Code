@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-repeat: no-repeat;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(/fylo-data-storage-component-master/images/bg-desktop.png);
+    background-position: 0px 300px;
+}
+
+.container {
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    margin: 200px;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 30px;
+    height: 170px;
+    width: 300px;
+    border-radius: 10px 70px 10px 10px;
+    background-color: hsl(228, 56%, 26%);
+    margin: .7em;
+    flex-shrink: .1;
+}
+
+.space {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 30px;
+    height: 130px;
+    width: 500px;
+    border-radius: 10px;
+    background-color: hsl(228, 56%, 26%);
+    margin: .7em;
+    flex-shrink: .2;
+}
+
+.logo {
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.icons img{
+    margin-right: .7em;
+    width: 40px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+
+#img1{
+    padding: 13px 12px 13px 12px;
+}
+
+#img2{
+    padding: 14px 10px 14px 10px;
+}
+
+#img3{
+    padding: 16px 11px 16px 11px;
+}
+
+.icons img:hover {
+    background-color: hsl(229, 93%, 16%)
+}
+
+.progressbar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 15px; 
+    border:2px solid hsl(229, 57%, 11%);;
+}
+
+.progress {
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    padding: 6px; 
+    text-align: right; 
+    border-radius: 15px; 
+    width: 80%;
+}
+
+.space p {
+    padding-bottom: 10px;
+    font-size: 13px;
+    color: hsl(243, 100%, 93%);
+}
+
+.data {
+    display:flex;
+    padding: 10px;
+    font-size: 13px;
+    color: hsl(243, 100%, 93%); 
+    justify-content:space-between;
+}
+
+#txt {
+    align-items: flex-end;
+}
+
+.left {
+    background-color: white;
+    color: hsl(229, 7%, 55%);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    height: 55px;
+    margin: auto;
+}
+
+.left span {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.attribution { 
+     font-size: 15px; 
+     text-align: center; 
+}
+
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 750px){
+    body {
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(/fylo-data-storage-component-master/images/bg-mobile.png);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    align-items: center;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 30px;
+    height: 170px;
+    width: 280px;
+    border-radius: 10px 70px 10px 10px;
+    background-color: hsl(228, 56%, 26%);
+    margin: .7em;
+    flex-shrink: .1;
+}
+
+.space {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 30px;
+    height: 130px;
+    width: 280px;
+    border-radius: 10px;
+    background-color: hsl(228, 56%, 26%);
+    margin: .7em;
+    
+}
+
+.logo {
+    width: 120px;
+    padding-bottom: 20px;
+}
+
+.icons img{
+    margin-right: .7em;
+    width: 40px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+
+#img1{
+    padding: 13px 12px 13px 12px;
+}
+
+#img2{
+    padding: 14px 10px 14px 10px;
+}
+
+#img3{
+    padding: 16px 11px 16px 11px;
+}
+
+.icons img:hover {
+    background-color: hsl(229, 93%, 16%)
+}
+
+
+.progressbar {
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 15px; 
+    border:2px solid hsl(229, 57%, 11%);;
+}
+
+.progress {
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+    padding: 6px; 
+    text-align: right; 
+    border-radius: 15px; 
+    width: 80%;
+}
+
+.space p {
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: hsl(243, 100%, 93%);
+    text-align:center;
+}
+
+.data {
+    display:flex;
+    padding: 10px;
+    font-size: 13px;
+    color: hsl(243, 100%, 93%); 
+    justify-content:space-between;
+}
+
+#txt {
+    align-items: flex-end;
+}
+
+.left {
+    background-color: white;
+    color: hsl(229, 7%, 55%);
+    font-size: 12px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    width: 120px;
+    text-align: center;
+    height: 55px;
+    margin: auto;
+}
+
+.left span {
+    font-size: 25px;
+    color: black;
+    font-weight: bolder;
+}
+
+.attribution { 
+     font-size: 15px; 
+     text-align: center; 
+}
+
+.attribution a { 
+     color: hsl(228, 45%, 44%); 
+}
+}
+ 
